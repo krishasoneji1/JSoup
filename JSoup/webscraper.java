@@ -1,4 +1,4 @@
-import java.io.FileWriter;
+
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -90,6 +90,8 @@ public class webscraper {
         
        DataCollector dc = new DataCollector();
        dc.prepareData("usernames_and_reviews.txt", usernames, reviews);
+       TargetedAd ta = new TargetedAd();
+       ta.makeAd();
     } 
     
 }

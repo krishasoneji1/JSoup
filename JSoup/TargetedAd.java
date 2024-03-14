@@ -4,7 +4,7 @@
 
 public class TargetedAd {
 
-  public static void main(String[] args)
+  public void makeAd()
   
     {
   {
@@ -37,7 +37,7 @@ public class TargetedAd {
 
     // Step 5: Prepare advertisement for targeted users
  
-    String advertisement = "Check out our newest earrings!";
+    String advertisement = "Since you liked these earrings, we think you'll enjoy our new gold hoop earrings on our site for 50% off using code EARRINGS!!!";
     dataCollector.prepareAdvertisement("targeted_advertisement.txt", usersString, advertisement);        
 
     }
@@ -45,7 +45,7 @@ public class TargetedAd {
 
    /*  
    
-     * TODO:
+     
      * PREPARATION WORK
      * (1) Create a file called targetWords.txt. Populate this file with words on each line that
      *     you think would determine if a user is a dog or cat owner.
